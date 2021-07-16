@@ -114,4 +114,19 @@ export default {
   width: 650px;
   border: 1px solid black;
 }
+@media only screen and (max-width: 850px) {
+  .project img {
+    width: 350px;
+    border: 1px solid black;
+  }
+
+  .link {
+    font-size: 60px;
+  }
+
+  .nav-links {
+    line-height: 3rem;
+    margin: 0;
+  }
+}
 </style>

@@ -36,7 +36,7 @@ export default {
 <style scoped>
 .home-image {
   position: fixed;
-  bottom: -2%;
+  bottom: -1%;
   right: 0;
 }
 
@@ -71,5 +71,26 @@ export default {
   flex-direction: column;
   justify-content: center;
   width: 65%;
+}
+
+@media only screen and (max-width: 850px) {
+  .about-text {
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .link {
+    font-size: 60px;
+  }
+
+  .nav-links {
+    line-height: 3rem;
+    margin: 0;
+  }
+
+  .home-image img {
+    height: 90px;
+  }
 }
 </style>

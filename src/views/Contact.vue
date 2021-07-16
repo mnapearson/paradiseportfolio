@@ -154,4 +154,19 @@ input[type="submit"]:hover {
   margin-top: 3rem;
   line-height: 5rem;
 }
+
+@media only screen and (max-width: 850px) {
+  .link {
+    font-size: 60px;
+  }
+
+  .nav-links {
+    line-height: 3rem;
+    margin: 0;
+  }
+
+  .home-image img {
+    width: 50px;
+  }
+}
 </style>

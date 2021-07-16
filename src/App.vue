@@ -13,11 +13,11 @@
   cursor: url("/cursor.cur"), auto;
 }
 
-.rainbow:hover {
-  -webkit-animation: rainbow 2.5s infinite;
-  -ms-animation: rainbow 2.5s infinite;
-  -o-animation: rainbow 2.5s infinite;
-  animation: rainbow 2.5s infinite;
+.rainbow {
+  -webkit-animation: rainbow 4s infinite;
+  -ms-animation: rainbow 4s infinite;
+  -o-animation: rainbow 4s infinite;
+  animation: rainbow 4s infinite;
 }
 @-webkit-keyframes rainbow {
   0% {

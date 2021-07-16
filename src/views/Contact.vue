@@ -25,8 +25,8 @@
       </p>
     </div>
     <div class="nav-links bottom">
-      <router-link class="link rainbow" to="/projects">Projects</router-link>
       <router-link class="link rainbow" to="/">About</router-link>
+      <router-link class="link rainbow" to="/projects">Projects</router-link>
     </div>
 
     <div class="home-image"><img src="../images/logo.png" alt="" /></div>

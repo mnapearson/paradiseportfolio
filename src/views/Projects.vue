@@ -7,49 +7,63 @@
       <carousel :per-page="1" :mouse-drag="true" :loop="true">
         <slide class="slide">
           <div class="project">
-            <img src="../images/henrik.png" alt="" />
+            <a href="https://hbmusic.netlify.app/#/">
+              <img src="../images/henrik.png" alt=""
+            /></a>
             <div class="project-description">
               <p>vue.js, email.js, html5, css, javascript</p>
             </div>
           </div> </slide
         ><slide class="slide"
           ><div class="project">
-            <img src="../images/ispy.png" alt="" />
+            <a href="http://ispyleipzig.de">
+              <img src="../images/ispy.png" alt=""
+            /></a>
             <div class="project-description">
               <p>vue.js, firebase, html5, css, javascript</p>
             </div>
           </div></slide
         ><slide class="slide"
           ><div class="project">
-            <img src="../images/wrh.png" alt="" />
+            <a href="https://wellroundedhoodlum.netlify.app/">
+              <img src="../images/wrh.png" alt=""
+            /></a>
             <div class="project-description">
               <p>javascript, html5, css</p>
             </div>
           </div></slide
         ><slide class="slide"
           ><div class="project">
-            <img src="../images/hallocity.png" alt="" />
+            <a href="https://hallocity.org">
+              <img src="../images/hallocity.png" alt=""
+            /></a>
             <div class="project-description">
               <p>technical project manager</p>
             </div>
           </div></slide
         ><slide class="slide"
           ><div class="project">
-            <img src="../images/devhaus.png" alt="" />
+            <a href="https://devhausleipzig.de/">
+              <img src="../images/devhaus.png" alt=""
+            /></a>
             <div class="project-description">
               <p>react.js, html5, sass, javascript</p>
             </div>
           </div></slide
         ><slide class="slide"
           ><div class="project">
-            <img src="../images/celestial.png" alt="" />
+            <a href="https://celestial-weather.netlify.app/">
+              <img src="../images/celestial.png" alt=""
+            /></a>
             <div class="project-description">
               <p>javscript, html5, css, restAPI</p>
             </div>
           </div></slide
         ><slide class="slide"
           ><div class="project">
-            <img src="../images/zencal.png" alt="" />
+            <a href="https://zencal-b5217.web.app/calendar">
+              <img src="../images/zencal.png" alt=""
+            /></a>
             <div class="project-description">
               <p>vue.js, firebase, html5, css, javascript</p>
             </div>

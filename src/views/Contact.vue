@@ -79,7 +79,7 @@ export default {
 <style scoped>
 .home-image {
   position: fixed;
-  bottom: -2%;
+  bottom: -1%;
   right: 0;
 }
 
@@ -166,7 +166,7 @@ input[type="submit"]:hover {
   }
 
   .home-image img {
-    width: 50px;
+    height: 90px;
   }
 }
 </style>

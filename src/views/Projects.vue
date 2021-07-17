@@ -89,7 +89,7 @@ export default {
 <style scoped>
 .home-image {
   position: fixed;
-  bottom: -2%;
+  bottom: -1%;
   right: 0;
 }
 
@@ -141,6 +141,9 @@ export default {
   .nav-links {
     line-height: 3rem;
     margin: 0;
+  }
+  .home-image img {
+    height: 90px;
   }
 }
 </style>

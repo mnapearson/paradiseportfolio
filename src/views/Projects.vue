@@ -94,7 +94,7 @@ export default {
 }
 
 .home-image img {
-  height: 400px;
+  height: 200px;
   width: auto;
 }
 

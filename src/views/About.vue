@@ -8,8 +8,8 @@
         </p>
 
         <p>
-          to learn more about michaela and paradise studio, explore the projects
-          get in touch via the contact form.
+          to learn more about michaela and paradise studio, explore the recent
+          projects and get in touch via the contact form.
         </p>
       </div>
       <router-link class="link" to="/projects">explore</router-link>
@@ -36,7 +36,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 65%;
+  max-width: 60%;
 }
 . @media only screen and (max-width: 850px) {
   .about-text {

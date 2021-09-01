@@ -1,5 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import Nav from "../components/Nav.vue";
 import About from "../views/About.vue";
 import Contact from "../views/Contact.vue";
 import Projects from "../views/Projects.vue";
@@ -22,6 +23,11 @@ const routes = [
     path: "/projects",
     name: "Projects",
     component: Projects,
+  },
+  {
+    path: "/nav",
+    name: "Nav",
+    component: Nav,
   },
 ];
 

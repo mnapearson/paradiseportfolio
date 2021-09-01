@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div class="nav-links">
-      <router-link class="link rainbow" to="/contact">Contact</router-link>
-    </div>
     <div class="contact-form">
       <form
         ref="contact"
@@ -17,19 +14,13 @@
         <input type="text" name="user_subject" placeholder="subject" />
 
         <textarea name="message" placeholder="message" required></textarea>
-        <input class="rainbow" type="submit" value="Send" />
+        <input type="submit" value="Send" />
       </form>
       <p v-if="successMessage" class="success">
         Thank you for your message. <br />You will receive a reply as soon as
         possible.
       </p>
     </div>
-    <div class="nav-links bottom">
-      <router-link class="link rainbow" to="/">About</router-link>
-      <router-link class="link rainbow" to="/projects">Projects</router-link>
-    </div>
-
-    <div class="home-image"><img src="../images/logo.png" alt="" /></div>
   </div>
 </template>
 
@@ -107,6 +98,7 @@ export default {
 }
 
 .contact-form {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -118,31 +110,39 @@ export default {
 
 form {
   width: 70%;
+  font-family: "Poppins", sans-serif;
 }
 
 label {
   float: left;
+  font-family: "Poppins", sans-serif;
 }
 
 input[type="text"],
 [type="email"],
 textarea {
   width: 100%;
-  padding: 12px;
+  padding: 8px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
+  font-family: "Poppins", sans-serif;
 }
 
 input[type="submit"] {
   padding: 12px 20px;
-  border: none;
+  border: 1px solid black;
   border-radius: 4px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  background: white;
 }
 
 input[type="submit"]:hover {
   background: black;
   color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
 }
 
 .success {

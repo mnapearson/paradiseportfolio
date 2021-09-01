@@ -1,14 +1,20 @@
 <template>
   <div>
-    <div class="nav-links">
-      <router-link class="link rainbow" to="/projects">Projects</router-link>
-    </div>
     <div class="projects-gallery">
       <carousel :per-page="1" :mouse-drag="true" :loop="true">
         <slide class="slide">
           <div class="project">
             <a href="https://hbmusic.netlify.app/#/">
               <img src="../images/henrik.png" alt=""
+            /></a>
+            <div class="project-description">
+              <p>vue.js, email.js, html5, css, javascript</p>
+            </div>
+          </div> </slide
+        ><slide class="slide">
+          <div class="project">
+            <a href="https://projketkoerpertherapie.netlify.app/#/">
+              <img src="../images/mohsen.png" alt=""
             /></a>
             <div class="project-description">
               <p>vue.js, email.js, html5, css, javascript</p>
@@ -71,12 +77,6 @@
         </slide></carousel
       >
     </div>
-    <div class="nav-links bottom">
-      <router-link class="link rainbow" to="/contact">Contact</router-link>
-      <router-link class="link rainbow" to="/">About</router-link>
-    </div>
-
-    <div class="home-image"><img src="../images/logo.png" alt="" /></div>
   </div>
 </template>
 

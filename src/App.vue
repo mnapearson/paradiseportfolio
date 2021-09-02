@@ -2,16 +2,19 @@
   <div id="app">
     <Nav></Nav>
     <router-view />
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Nav from "./components/Nav.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
     Nav,
+    Footer,
   },
 };
 </script>
@@ -29,6 +32,10 @@ body {
     rgba(242, 245, 249, 1) 100%
   );
   height: 100vh;
+}
+
+.link {
+  cursor: url("/cursor.cur"), auto;
 }
 
 .rainbow {

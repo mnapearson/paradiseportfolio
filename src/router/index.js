@@ -4,6 +4,8 @@ import Nav from "../components/Nav.vue";
 import About from "../views/About.vue";
 import Contact from "../views/Contact.vue";
 import Projects from "../views/Projects.vue";
+import Radio from "../views/Radio.vue";
+import Shop from "../views/Shop.vue";
 
 Vue.use(VueRouter);
 
@@ -12,6 +14,16 @@ const routes = [
     path: "/",
     name: "About",
     component: About,
+  },
+  {
+    path: "/radio",
+    name: "Radio",
+    component: Radio,
+  },
+  {
+    path: "/shop",
+    name: "Shop",
+    component: Shop,
   },
   {
     path: "/contact",

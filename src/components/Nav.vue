@@ -13,6 +13,8 @@
       </router-link>
       <div class="nav-right">
         <router-link class="link" to="/projects">Projects '21</router-link>
+        <router-link class="link" to="/shop">Shop</router-link>
+        <router-link class="link" to="/Radio">Radio</router-link>
         <router-link class="link" to="/contact">Contact</router-link>
       </div>
     </div>

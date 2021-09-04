@@ -4,7 +4,11 @@
       <carousel :per-page="1" :mouse-drag="true" :loop="true">
         <slide class="slide">
           <div class="project">
-            <a href="https://hbmusic.netlify.app/#/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://hbmusic.netlify.app/#/"
+            >
               <img src="../images/henrik.png" alt=""
             /></a>
             <div class="project-description">
@@ -13,7 +17,11 @@
           </div> </slide
         ><slide class="slide">
           <div class="project">
-            <a href="https://projketkoerpertherapie.netlify.app/#/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://projketkoerpertherapie.netlify.app/#/"
+            >
               <img src="../images/mohsen.png" alt=""
             /></a>
             <div class="project-description">
@@ -22,7 +30,11 @@
           </div> </slide
         ><slide class="slide"
           ><div class="project">
-            <a href="http://ispyleipzig.de">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://ispyleipzig.de"
+            >
               <img src="../images/ispy.png" alt=""
             /></a>
             <div class="project-description">
@@ -31,7 +43,11 @@
           </div></slide
         ><slide class="slide"
           ><div class="project">
-            <a href="https://wellroundedhoodlum.netlify.app/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wellroundedhoodlum.netlify.app/"
+            >
               <img src="../images/wrh.png" alt=""
             /></a>
             <div class="project-description">
@@ -40,16 +56,11 @@
           </div></slide
         ><slide class="slide"
           ><div class="project">
-            <a href="https://hallocity.org">
-              <img src="../images/hallocity.png" alt=""
-            /></a>
-            <div class="project-description">
-              <p>technical project manager</p>
-            </div>
-          </div></slide
-        ><slide class="slide"
-          ><div class="project">
-            <a href="https://devhausleipzig.de/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://devhausleipzig.de/"
+            >
               <img src="../images/devhaus.png" alt=""
             /></a>
             <div class="project-description">
@@ -58,7 +69,11 @@
           </div></slide
         ><slide class="slide"
           ><div class="project">
-            <a href="https://celestial-weather.netlify.app/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://celestial-weather.netlify.app/"
+            >
               <img src="../images/celestial.png" alt=""
             /></a>
             <div class="project-description">
@@ -67,7 +82,11 @@
           </div></slide
         ><slide class="slide"
           ><div class="project">
-            <a href="https://zencal-b5217.web.app/calendar">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://zencal-b5217.web.app/calendar"
+            >
               <img src="../images/zencal.png" alt=""
             /></a>
             <div class="project-description">

@@ -42,6 +42,6 @@ export default {
 }
 
 iframe {
-  margin: 2rem;
+  margin: 1rem;
 }
 </style>

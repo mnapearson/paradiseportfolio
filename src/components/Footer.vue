@@ -1,11 +1,13 @@
 <template>
   <div class="footer">
+    <cookie-law theme="royal"></cookie-law>
     <div class="footer-left">
       <p class="link">impressum</p>
       <p class="link">datenschutz</p>
     </div>
     <div class="footer-middle">
       <a
+        class="link"
         target="_blank"
         rel="noopener noreferrer"
         href="https://medium.com/@michaelapearson"
@@ -16,6 +18,7 @@
           data-flip="horizontal"
         ></span></a
       ><a
+        class="link"
         target="_blank"
         rel="noopener noreferrer"
         href="https://www.instagram.com/paradisestudiolej/"
@@ -27,6 +30,7 @@
         ></span
       ></a>
       <a
+        class="link"
         target="_blank"
         rel="noopener noreferrer"
         href="https://www.linkedin.com/in/paradise-studio-a9284a21a/?originalSubdomain=de"
@@ -48,8 +52,11 @@
 </template>
 
 <script>
+import CookieLaw from "vue-cookie-law";
+
 export default {
   name: "Footer",
+  components: { CookieLaw },
 };
 </script>
 

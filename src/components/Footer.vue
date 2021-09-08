@@ -2,8 +2,8 @@
   <div class="footer">
     <cookie-law theme="royal"></cookie-law>
     <div class="footer-left">
-      <p class="link">impressum</p>
-      <p class="link">datenschutz</p>
+      <router-link to="/impressum" class="link"> impressum</router-link>
+      <router-link to="/datenschutz" class="link">datenschutz</router-link>
     </div>
     <div class="footer-middle">
       <a
@@ -68,7 +68,7 @@ export default {
 }
 
 .link {
-  margin: 0.3rem;
+  margin: 0 0.5rem;
 }
 
 .footer-left {
@@ -93,7 +93,7 @@ export default {
 }
 
 .iconify {
-  font-size: 24px;
+  font-size: 20px;
   margin: 0 1rem;
 }
 

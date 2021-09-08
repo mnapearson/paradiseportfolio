@@ -17,13 +17,6 @@
           class="link"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.facebook.com/events/226213609421853"
-          >05.09 @Heiter Bis Wolkig
-        </a>
-        <a
-          class="link"
-          target="_blank"
-          rel="noopener noreferrer"
           href="https://www.cafeocka.de/"
           >19.09 @Ocka Cafe
         </a>
@@ -62,6 +55,6 @@ export default {
 }
 
 img {
-  width: 80vw;
+  width: 50vw;
 }
 </style>

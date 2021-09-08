@@ -25,12 +25,13 @@ export default {
 body {
   font-family: "Poppins", sans-serif;
   cursor: url("/cursor.cur"), auto;
-  background: rgb(238, 174, 202);
+  background-image: url("./images/radial.png");
+  /* background: rgb(238, 174, 202);
   background: linear-gradient(
     360deg,
     rgba(238, 174, 202, 1) 0%,
-    rgba(242, 245, 249, 1) 100%
-  );
+    rgba(242, 245, 249, 1) 100% */
+  /* ); */
   height: 100vh;
 }
 

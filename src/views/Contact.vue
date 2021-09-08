@@ -110,7 +110,7 @@ export default {
 }
 
 form {
-  width: 70%;
+  width: 60%;
   font-family: "Poppins", sans-serif;
 }
 
@@ -128,6 +128,10 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   font-family: "Poppins", sans-serif;
+}
+
+textarea {
+  height: 150px;
 }
 
 input[type="submit"] {

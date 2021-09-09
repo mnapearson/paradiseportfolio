@@ -25,7 +25,8 @@ export default {
 body {
   font-family: "Poppins", sans-serif;
   cursor: url("/cursor.cur"), auto;
-  background-image: url("./images/radial.png");
+  background-image: url("./images/radial2.png");
+  background-size: cover;
   /* background: rgb(238, 174, 202);
   background: linear-gradient(
     360deg,
@@ -33,6 +34,7 @@ body {
     rgba(242, 245, 249, 1) 100% */
   /* ); */
   height: 100vh;
+  overflow: hidden;
 }
 
 .link {

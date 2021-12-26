@@ -46,9 +46,9 @@ export default {
   align-items: center;
 }
 .about-text {
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
-  margin: 3rem;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,7 +62,6 @@ a {
 
 @media only screen and (max-width: 850px) {
   .about-text {
-    font-size: 22px;
     width: 100%;
     margin: 0;
   }

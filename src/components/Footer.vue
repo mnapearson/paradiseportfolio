@@ -5,39 +5,7 @@
       <router-link to="/impressum" class="link"> impressum</router-link>
       <router-link to="/datenschutz" class="link">datenschutz</router-link>
     </div>
-    <div class="footer-middle">
-      <a
-        class="link"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://twitter.com/m__i__c__h__a"
-      >
-        <span
-          class="iconify link"
-          data-icon="bi:twitter"
-          data-flip="horizontal"
-        ></span></a
-      ><a
-        class="link"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.instagram.com/m___i___c___h___a___/"
-      >
-        <span
-          class="iconify link"
-          data-icon="bx:bxl-instagram-alt"
-          data-flip="horizontal"
-        ></span
-      ></a>
-      <a
-        class="link"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.linkedin.com/in/micha-pearson-58643260/"
-      >
-        <span class="iconify link" data-icon="ci:linkedin"></span
-      ></a>
-    </div>
+
     <div class="footer-right">
       <a
         class="link"
@@ -63,8 +31,9 @@ export default {
 <style scoped>
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  font-size: 10px;
 }
 
 .link {

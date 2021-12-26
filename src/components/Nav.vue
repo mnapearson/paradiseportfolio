@@ -3,11 +3,6 @@
     <div class="nav-links">
       <router-link class="link" to="/"
         ><div class="link logo">
-          <span
-            class="iconify"
-            data-icon="codicon:smiley"
-            data-flip="horizontal"
-          ></span>
           <p>Paradise Studio</p>
         </div>
       </router-link>
@@ -31,7 +26,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Sarpanch&display=swap");
 
 .link {
-  margin: 1rem;
+  margin: 0.3rem;
   text-decoration: none;
   font-family: "Sarpanch", sans-serif;
   color: black;
@@ -46,16 +41,5 @@ export default {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 0;
-}
-
-.iconify {
-  margin-right: 0.5rem;
 }
 </style>

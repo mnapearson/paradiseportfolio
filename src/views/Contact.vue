@@ -105,11 +105,11 @@ export default {
   align-items: center;
   text-align: center;
   line-height: 22px;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 form {
-  width: 60%;
+  width: 75%;
   font-family: "Poppins", sans-serif;
 }
 

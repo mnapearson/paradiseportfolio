@@ -10,11 +10,11 @@
         class="link"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://medium.com/@michaelapearson"
+        href="https://twitter.com/m__i__c__h__a"
       >
         <span
           class="iconify link"
-          data-icon="bi:medium"
+          data-icon="bi:twitter"
           data-flip="horizontal"
         ></span></a
       ><a
@@ -33,7 +33,7 @@
         class="link"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.linkedin.com/in/paradise-studio-a9284a21a/?originalSubdomain=de"
+        href="https://www.linkedin.com/in/micha-pearson-58643260/"
       >
         <span class="iconify link" data-icon="ci:linkedin"></span
       ></a>

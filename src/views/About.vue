@@ -3,12 +3,11 @@
     <div class="about">
       <div class="about-text">
         <p>
-          michaela pearson is the founder of paradise studio. she is a creative
-          UX/UI designer and frontend web developer.
+          hi, i'm micha, the founder of paradise studio. i am a creative UX/UI
+          designer and frontend web developer.
         </p>
         <p>
-          she also enjoys collecting and selling vintage and secondhand clothing
-          at pop-up markets and on
+          i also enjoy collecting and selling vintage and secondhand clothing on
           <a
             class="link"
             target="_blank"
@@ -16,7 +15,7 @@
             href="https://www.depop.com/paradisestudio/"
             >Depop</a
           >
-          and curates a radio show on Leipzig's local station
+          and curate 'Paradise Radio' on Leipzig's local station
           <a
             class="link"
             target="_blank"
@@ -26,8 +25,7 @@
           >.
         </p>
         <p>
-          to learn more about michaela and paradise studio, explore the recent
-          projects and get in touch via the contact form.
+          to learn more about my projects get in touch via the contact form.
         </p>
       </div>
       <router-link class="link" to="/projects">explore</router-link>

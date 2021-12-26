@@ -21,7 +21,7 @@
         class="link"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.instagram.com/paradisestudiolej/"
+        href="https://www.instagram.com/m___i___c___h___a___/"
       >
         <span
           class="iconify link"

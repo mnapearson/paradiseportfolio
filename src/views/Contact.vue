@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="contact-form">
-      <p>get in touch with me to discuss your ideas</p>
       <form
         ref="contact"
         class="contact-form"
